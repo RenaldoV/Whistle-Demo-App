@@ -28,6 +28,8 @@ plugins/android.json
 plugins/ios.json
 www/*
 !www/img
+signed_releases
+my-keystore-file.keystore
 $RECYCLE.BIN/
 
 .DS_Store
