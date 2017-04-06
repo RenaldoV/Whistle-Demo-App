@@ -1,0 +1,27 @@
+<ion-header>
+  <page-avatar-head>
+  </page-avatar-head>
+</ion-header>
+
+<ion-content class="companyLogo">
+
+</ion-content>
+
+<ion-footer>
+  <div class="homeButtons row">
+    <div class="bookmark col-xs-6 white" (tap)="goToSuspiciousActivity($event)">
+      <ion-icon name="ios-bookmarks-outline"></ion-icon><br>
+      <span>Community</span>
+    </div>
+    <div class="profile col-xs-6 white" (tap)="goToProfile($event)">
+      <ion-icon name="ios-person-outline"></ion-icon><br>
+      <span>Profile</span>
+    </div>
+  </div>
+  <div class="helpButton" style="text-align: center;" (press)="fireAlert($event)">
+    <h2 style="margin-top:65px;color:white;">HELP</h2>
+  </div>
+  <div class="suspiciousButton row white" (tap)="reportSuspicious($event)" style="background-color:#FF9205">
+    <h3>SUSPICIOUS ACTIVITY</h3>
+  </div>
+</ion-footer>

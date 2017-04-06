@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Whistle</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="light">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+  <page-avatar-head>
+  </page-avatar-head>
+</ion-header>
+
+<ion-content style="background:red;">
+  <h3 text-center style="color:white; margin-top:20px;">
+    PLEASE STAY BEHIND A CLOSED DOOR AND WAIT FOR ASSISTANCE FROM SECURITY
+  </h3>
+  <div class="falseAlarmButton" style="text-align: center;" (tap)="falseAlarm($event)">
+    <h2 class="white" style="margin-top:30%;">FALSE ALARM</h2>
+  </div>
+</ion-content>

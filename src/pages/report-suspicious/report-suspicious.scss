@@ -1,0 +1,56 @@
+
+
+page-report-suspicious {
+
+  ion-navbar{
+    div.toolbar-background{
+      background-color: color($colors,dark);
+    }
+    div.toolbar-content ion-title {
+      div.toolbar-title{
+        color:white;
+      }
+    }
+    button.back-button{
+      color:white;
+    }
+  }
+  ion-header page-avatar-head ion-card.card.card-md{
+    padding:0px;
+  }
+  ion-content {
+    form{
+
+      ion-list.list{
+        margin-bottom:0px;
+        ion-item.item-block{
+          padding:0px;
+          text-align: center;
+        }
+      }
+    }
+    h3 {
+      width: 60%;
+      font-size: 19px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  ion-footer ion-toolbar.toolbar{
+    background-color: color($colors,dark);
+  }
+    ion-card.card{
+      background-color: blue;
+      ion-item{
+        background-color: blue;
+        ion-label h2, p{
+          color:white;
+        }
+      }
+    }
+
+}
+
+ion-item{
+  text-align: center
+}

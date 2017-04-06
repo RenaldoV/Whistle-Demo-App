@@ -1,0 +1,44 @@
+page-false-alarm {
+  ion-navbar{
+    div.toolbar-background{
+      background-color: color($colors,dark);
+    }
+    div.toolbar-content ion-title {
+      div.toolbar-title{
+        color:white;
+      }
+    }
+    button.back-button{
+      color:white;
+    }
+    page-avatar-head ion-card.card{
+      padding:0px;
+    }
+  }
+  ion-content h3{
+    width:60%;
+    font-size: 19px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .falseAlarmButton{
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    border-radius:80px;
+    border:6px solid white;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:140px;
+    color:white;
+  }
+  ion-card.card{
+    background-color: blue;
+    ion-item{
+      background-color: blue;
+      ion-label h2, p{
+        color:white;
+      }
+    }
+  }
+}

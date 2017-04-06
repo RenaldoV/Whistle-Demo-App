@@ -1,0 +1,59 @@
+<!--
+  Generated template for the Update page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>My Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label>Name</ion-label>
+      <ion-input type="text" placeholder="Joe"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Surname</ion-label>
+      <ion-input type="text" placeholder="Doe"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Email Address</ion-label>
+      <ion-input type="text" placeholder="joedoe@gmail.com"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Contact</ion-label>
+      <ion-input type="text" placeholder="0717587589"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Address</ion-label>
+      <ion-input type="text" placeholder="21 Eva Street, Centurion" disabled="true">21 Eva Street, Centurion</ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Vehicle Reg</ion-label>
+      <ion-input type="text" placeholder="CR35ZJGP"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Pets</ion-label>
+      <ion-input type="text" placeholder="Dog - GSD - Gunner"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Domestic Worker</ion-label>
+      <ion-input type="text" placeholder="none"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password" placeholder="none"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <div padding>
+    <button ion-button full color="secondary" (tap)="update($event)">Update</button>
+  </div>
+</ion-content>

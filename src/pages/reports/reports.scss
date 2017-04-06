@@ -1,0 +1,21 @@
+page-reports {
+  ion-header{
+    ion-list{
+      ion-list-header{
+        div div ion-label.label{
+          margin-top:0px;
+          margin-bottom:0px;
+        }
+      }
+    }
+  }
+  ion-item.reports div.item-inner{
+    background-color: #ffa872;
+  }
+  .notAdmin{
+    font-weight: bold;
+    color: crimson;
+  }
+}
+
+
