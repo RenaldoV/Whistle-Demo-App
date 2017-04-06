@@ -9,12 +9,14 @@ page-reports {
       }
     }
   }
-  ion-item.reports div.item-inner{
-    background-color: #ffa872;
-  }
-  .notAdmin{
+  h2{
     font-weight: bold;
-    color: crimson;
+  }
+  ion-icon.notAdmin{
+    color:rgb(255, 146, 5);
+  }
+  ion-icon{
+    color:darkblue;
   }
 }
 

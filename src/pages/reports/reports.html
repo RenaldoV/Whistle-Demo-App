@@ -14,11 +14,11 @@
 
 <ion-content>
   <ion-list *ngIf="reports.length">
-    <ion-item *ngFor="let report of reports" ngClass="{{(report.name != 'Admin') ? 'reports' : ''}}" style="border-bottom:1px solid #e2e2e2;" (tap)="gotoReport(report)">
+    <ion-item *ngFor="let report of reports" ngClass="{{(report.name != 'Admin') ? 'reports' : ''}}" (tap)="gotoReport(report)">
       <ion-avatar item-left>
-        <ion-icon color="danger" name="{{(report.name == 'Admin') ? 'ios-contact' : 'ios-warning'}}" style="font-size: 45px;"></ion-icon>
+        <ion-icon [ngClass]="report.isAdmin"  name="{{(report.name == 'Admin') ? 'ios-contact' : 'ios-warning'}}" style="font-size: 45px;"></ion-icon>
       </ion-avatar>
-      <h2 [ngClass]="report.isAdmin">{{report.name}}</h2>
+      <h2>{{report.name}}</h2>
       <p>{{report.reportText}}</p>
     </ion-item>
   </ion-list>

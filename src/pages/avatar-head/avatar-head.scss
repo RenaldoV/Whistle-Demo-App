@@ -2,7 +2,14 @@ page-avatar-head {
 }
 
 ion-card.card{
-  padding:5px;
+  padding:0px;
   margin:0px;
   width: 100%;
+  ion-item.item > ion-avatar{
+    margin: 8px 5px 8px 0px;
+  }
+}
+
+ion-label.label{
+  margin:0px;
 }

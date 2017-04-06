@@ -34,6 +34,9 @@ page-dashboard {
       vertical-align: middle;
       width:50%;
       height:80%;
+      ion-icon{
+        margin-left:5%;
+      }
     }
     .profile{
       color: color($colors,light);
@@ -42,6 +45,12 @@ page-dashboard {
       width:50%;
       height:80%;
       text-align: right;
+      ion-icon{
+        margin-right:5%;
+      }
+      span{
+        margin-right:5%;
+      }
     }
     ion-icon{
       font-size:60px;
